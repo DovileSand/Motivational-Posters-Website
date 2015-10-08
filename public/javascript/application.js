@@ -15,24 +15,24 @@ $(document).on('input', '#text', function() {
 
 $(document).on('change', '#left', function() {
   $("#caption").css("left", $(this).val() + 'px');
-})
+});
 
 $(document).on('change', '#top', function() {
   $("#caption").css("top", $(this).val() + 'px');
-})
+});
 
 $(document).on('change', '#width', function() {
   $("#caption").css("width", $(this).val() + 'px');
-})
+});
 
 $(document).on('change', '#size', function() {
   $("#caption").css("font-size", $(this).val() + 'px');
-})
+});
 
 $(document).on('change', '#colour', function() {
-  $("#caption").css("colour", $(this).val());
-})
+  $("#caption").css("color", $(this).val());
+});
 
 $(document).on('change', '#align', function() {
   $("#caption").css("text-align", $(this).val());
-})
+});
