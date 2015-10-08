@@ -8,3 +8,7 @@ $(document).on('click', '#search-results img', function() {
   var img = $("<img>").attr('src', url);
   $("#workspace").append(img);
 });
+
+$(document).on('input', '#text', function() {
+  $("#caption").text($(this).val());
+});
