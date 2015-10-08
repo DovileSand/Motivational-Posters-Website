@@ -1,9 +1,14 @@
 body {
   background-image: url(/images/confectionary.png)
   }
+
 #workspace {
   width: 600px;
   min-height: 300px;
   border: 5px dashed red;
   margin: 0 auto;
+}
+
+#workspace img {
+  width: 600px;
 }
