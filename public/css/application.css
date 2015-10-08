@@ -1,6 +1,52 @@
 body {
-  background-image: url(/images/confectionary.png)
+  text-align: center;
+  background-image: url(/images/confectionary.png);
+  color: gray;
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding: 0;
   }
+
+header {
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.7);
+  box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#select-image {
+  background-color: rgba(255,255,255, 0.5);
+  padding: 10px;
+}
+
+#add-text {
+  background-color: rgba(0,255,255, 0.02);
+  padding: 10px;
+  box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#add-text input {
+  width: 600px;
+  text-align: center;
+}
+
+#style-image {
+  background-color: rgba(255,255,255, 0.7);
+  padding: 10px;
+  box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#controls {
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+input, button {
+  font-size: 16px;
+}
 
 #workspace {
   width: 600px;
@@ -27,4 +73,13 @@ body {
 }
 #workspace {
   position: relative;
+}
+
+footer img {
+  float: left;
+  margin-right: 40px;
+}
+
+footer div {
+  margin: 10px 0;
 }
