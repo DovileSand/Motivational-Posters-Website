@@ -9,12 +9,12 @@ body {
 
 header {
   padding: 15px;
-  background-color: rgba(255, 255, 122, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
 
 #select-image {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(255,255,255, 0.6);
   padding: 10px;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 #style-image {
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255,240,245, 0.6);
   padding: 10px;
   box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
@@ -50,7 +50,7 @@ input, button {
 #workspace {
   width: 600px;
   min-height: 300px;
-  border: 5px dashed red;
+  border: 5px dashed MediumAquaMarine;
   margin: 0 auto;
 }
 
@@ -67,16 +67,44 @@ input, button {
   text-shadow: 0 0 5px rgba(0,0,0,0.4);
   width: 400px;
   font-size: 32px;
-  color: red;
+  color: MidnightBlue;
   margin: 0;
 }
 #workspace {
   position: relative;
 }
 
-#branding {
+/*#branding {
   margin: 0 auto;
+}*/
+
+/*#search-results {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 2px 10px 0 0;
+}*/
+
+
+/*#div_avatar {
+width: 30px;
+height: 30px;
+border: 1px solid #000000;
+overflow: hidden;
+position: relative;
+float: left;
+margin: 2px 10px 0 0;
 }
+#div img.avatar {
+width: 30px;
+height: auto;
+padding: 1px;
+position: absolute;
+}
+<div id="search-results"></div>*/
 
 footer {
   background-color: rgba(255,255,255, 0.9);
